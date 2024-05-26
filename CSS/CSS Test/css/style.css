@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+#chat{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+#menu-bar{
+    display: flex;
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+
+#menus {
+    display: inline;
+    margin-left: 20px;
+    margin-top: 5px;
+       
+}
+#menus ul {
+    display: inline;
+    text-decoration: none;
+    /* margin-top: 10px; */
+    
+}
+
+#menus ul li a {
+    display: inline;
+    text-decoration: none;
+    color: #020000;
+    font-weight:550;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight:bold; */
+}
+
+#menus ul li {
+    list-style: none;
+    display: inline;
+    padding: 30px;
+}
+
+
+#boldbi-logo
+{
+    margin-left: 30px;
+}
+
+#icons
+{
+    
+    display: inline;
+    margin-left: 5px;
+    margin-top: 60px;
+    padding: 50px;
+       
+}
+#sign-in{
+    background-color: transparent;
+    border-radius: 3px;
+    font-family: Arial;
+    border-color: #e5e5e5;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    margin-left: 20px;
+    width: 90px;
+}
+
+#sign-in:hover{
+    border-color: #797979;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#trail{
+    border: none;
+    background-color: #ff4800;
+    font-size:medium;
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 5px;
+    /* width: 90; */
+}
+
+#message {
+    text-align: center;
+    padding-top: 150px;
+}
+
+#contact{
+    font-weight:40px;
+    font-family: Arial;
+}
+
+#content {
+    font-family: Arial;
+    color: gray;
+}
+#bannerimage1
+{
+    width: 100%;
+    height: 175px;
+}
+#banner {
+    margin-top: -5px;
+    display: flex;
+}
+
+
+#background-wave{
+    /* background-image: url("imgs/wave.png"); */
+    /* background-color: ; */
+    width: 100%;
+    height: 40px;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    margin:0;
+    padding: 0;
+
+}
+
+#form{
+    margin-top: 20px;
+    float: right;
+    /* border-color: #020000;
+    border-style: solid;
+    border-width: 2px; */
+}
+
+#support{
+    margin-top: 50px;
+    /* background-color: #e8f8fe; */
+}
+
+/* #support{
+    margin-left: 70px;
+    line-height: 1.5rem;
+    background-color: transparent;
+    display: inline;
+} */
+
+
+#contact-sales{
+    margin-top: 12vh;
+    display: flex;
+    /* padding-right: 25px; */
+    padding-left: 30px;
+
+    justify-content: space-around;
+}
+
+#contact-content{
+    padding-left: 40px;
+}
+
+#technical{
+    margin-top: 12vh;
+    display: flex;
+    justify-content: space-around;
+    /* padding-right: 40px; */
+    padding-left: 30px;
+
+    
+}
+#tech-content{
+    padding-left: 40px;
+}
+#chat-with{
+    margin-top: 12vh;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+
+#chat-content{
+    padding-left: 50px;
+}
+
+#form{
+    margin-top: 80px;
+
+    font-family: Arial;
+    margin-left: 300px;
+    margin-right: 200px;
+    /* border-color: gray;
+    border-width: 2px;
+    border-style:solid; */
+    padding: 50px;
+    /* text-align: center; */
+    /* line-height: 2px; */
+}
+#name{
+    width: 85%;
+    padding: 10px;
+    /* padding-bottom: 10px; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #cbd2e0;
+}
+
+#email{
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #cbd2e0;
+}
+
+
+#subject{
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-style:solid;
+    border-color: #cbd2e0;
+}
+
+#phone{
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #cbd2e0;
+}
+
+#help{
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #cbd2e0;
+}
+
+#form-elements
+{
+    padding-left: 20px;
+    /* padding-right: 50px; */
+}
+
+h1{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #020000;
+    
+}
+
+#sumbit-btn{
+    background-color:#ff4800;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin-left: 1px;
+    border-radius: 5px;
+    /* padding-left: 80px;
+    padding-right: 80px; */
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+    
+}
+
+#locations
+{
+    margin-top: 70px;
+    padding: 50px;
+   
+}
+
+#three-locations
+{
+    display:flex;
+    /* padding-right: 300px; */
+    /* padding-left: 60px; */
+    /* width: 500px; */
+}
+
+#fig2{
+    padding-left: 40px;
+}
+
+#fig3{
+    padding-left: 40px;
+
+}
+#fig4{
+    padding-top: 50px;
+
+}
+/* 
+figure{
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    align-content: space-around;
+
+} */
+
+figcaption{
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+#social-media
+{
+    margin-top: 10%;
+    /* background-color: blue; */
+}
+
+#media-icons{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    /* margin-top: 600px; */
+    /* margin-left: 50px; */
+}
+#fb{
+    background-color: #3b5998;;
+    margin-left: 420px;
+    border: none;
+    border-width: 0cm;
+    border-style: none;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+#twitter{
+    background-color: #1da1f2;
+    margin-left: 40px;
+    border: none;
+    border-width: 0cm;
+    border-style: none;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+#linked-in{
+    background-color: #0077b5;
+    margin-left: 40px;
+    border: none;
+    border-width: 0cm;
+    border-style: none;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+#youtube{
+    background-color: #cd201f;
+    margin-left: 40px;
+    border: none;
+    border-width: 0cm;
+    border-style: none;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+#pinterest{
+    background-color: #bd081c;
+    margin-left: 40px;
+    border: none;
+    border-width: 0cm;
+    border-style: none;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.other-details{
+    margin-top: 50px;
+}
+
+#boldbi-contact{
+    /* background-color: #110056; */
+    /* margin-top: 100px; */
+    float: left;
+    margin-left: 0px;
+    padding: 40px;
+    width: 100%;
+    /* display: flex; */
+     
+}
+
+#slogan{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+    font-family: Arial;
+    /* display:flex; */
+}
+
+#fb-icon{
+    padding-left: 30px;
+}
+
+#twitter-icon{
+    padding-left: 15px;
+}
+
+#linkedin-icon{
+    padding-left: 15px;
+}
+
+#youtube-icon{
+    padding-left: 15px;
+}
+
+#pinterest-icon{
+    padding-left: 15px;
+
+}
+
+#other-links{
+    font-family: Arial;
+    display: flex;
+    /* float: left; */
+    color: white;
+    padding: 20px;
+    line-height: 2.5;
+    margin-right: 100px;
+    margin-top: 30px;
+
+}
+
+#alternatives{
+    font-size: large;
+    /* font-weight: bold; */
+    float: right;
+    padding-left: 40px; 
+       
+}
+
+#solutions{
+    float: right;
+    padding-left: 60px;  
+    /* padding-right: 70px; */
+}
+
+#company{
+    float: right;
+    padding-left: 60px; 
+}
+
+#resources{
+    float: right;
+    padding-left: 60px; 
+}
+
+.other-details{
+    display:flex;
+    /* display: inline-flex; */
+    background-color: #110056;
+}
+
+.footer{
+    margin: 0;
+    background-color: #110056;
+    color: white;
+    width: 100%;
+    padding-bottom: 40px;
+    /* margin-left: 30px; */
+    /* display: flex; */
+}
+
+#copyright{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 90px;
+}
+#hosted{
+    padding-left: 30px;
+}
+
+#terms{
+    /* padding-bottom: 30px; */
+
+    padding-left: 470px;
+    display: flex;
+    font-family: Arial;
+}
+
+
+#term{
+    /* margin-top: 40px; */
+
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+#Cookie{
+    padding-right: 30px; 
+}
+
+#Security{
+    padding-right: 30px; 
+}
+
+#Ethics{
+    padding-right: 7px; 
+}
+
+#Disclosure{
+    padding-right: 2px; 
+}
+
+#Sub{
+    padding-right: 2px; 
+}
+
+

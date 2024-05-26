@@ -1,0 +1,31 @@
+.row1{
+    display:flex;
+    font-size:5vh;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.row2{
+    display:flex;
+    font-size:5vh;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 8rem;
+}
+
+.row3{
+    display:flex;
+    font-size:5vh;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 7rem;
+}
+
+
+
+
+

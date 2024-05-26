@@ -1,0 +1,62 @@
+#menu-bar
+{
+    background-color: black;
+    height: 35px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    /* display: flex; */
+}
+
+#menu-bar ul
+{
+    float: right;
+    margin-top: 10px;
+    /* display: flex; */
+    padding: -30px;
+    margin-right: 30px;
+    background-color: transparent;
+}
+
+#menu-bar ul li
+{
+    display: inline;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-bar ul :hover
+{
+    background-color: rgba(181, 180, 180, 0.241);
+}
+
+#menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+    /* padding: 30px; */
+}
+
+#company-logo
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-left: 15px;
+}
+
+#trail
+{
+    background-color: dodgerblue;
+}
+
+#trail :hover{
+    background-color: forestgreen;
+    color: black;
+}
+
+.dropdown
+{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+}

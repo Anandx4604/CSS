@@ -1,0 +1,29 @@
+#photo-card {
+    margin: 0px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 5%; */
+}
+
+figcaption {
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
+}
+
+figure {
+    box-shadow: 5px 5px 5px gray;
+    line-height: 0.5px;
+
+}
+
+p{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
